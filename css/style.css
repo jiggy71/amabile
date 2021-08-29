@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap');
+
 :root {
     --background: #fffbf0;
     --navcolor: #e4ddf4;
@@ -15,5 +17,23 @@ body    {
 }
 
 .navbar-nav .nav-item:hover .nav-link {
+    /* Stylizacja koloru podświetlenia menu */
     color: var(--primary);
+}
+
+#mainImage  {
+    border-left-color: var(--primary);
+    border-left-width: 5px;
+    border-left-style: solid;
+}
+
+#mainMotto  {
+    font-family: 'Dosis', sans-serif;
+    font-size: 7vw;
+}
+
+@media  (max-width: 1200px) {
+    #mainMotto  {
+        font-size: 12vw;
+    }
 }
