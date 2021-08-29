@@ -27,9 +27,10 @@ body    {
     border-left-style: solid;
 }
 
-#mainMotto  {
+#mainMotto   {
     font-family: 'Dosis', sans-serif;
     font-size: 6vw;
+    color: var(--darkgreen);
 }
 
 @media  (max-width: 1200px) {
