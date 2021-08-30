@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;1,300&display=swap');
 
 :root {
     --background: #fffbf0;
@@ -8,11 +9,15 @@
     --darkgreen: #282612;
 }
 
+.active {
+    color: var(--primary) !important;
+}
+
 body    {
     background-color: var(--background);
 }
 
-.navbackground  {
+.customNav  {
     background-color: var(--navcolor);
 }
 
@@ -31,10 +36,39 @@ body    {
     font-family: 'Dosis', sans-serif;
     font-size: 6vw;
     color: var(--darkgreen);
+    text-align: center;
+    margin-bottom: 2vw;
 }
 
-@media  (max-width: 1200px) {
+#advertText {
+    font-family: 'Lato', sans-serif;
+    font-style: italic;
+    font-size: 1.3vw;
+    text-align: center;
+    color: var(--darkgrey);
+    background-color: var(--navcolor);
+    padding: 10px 30px;
+}
+
+.borderRight    {
+    border-right-color: var(--primary);
+    border-right-width: 5px;
+    border-right-style: solid;
+}
+
+@media  (max-width: 1199px) {
     #mainMotto  {
         font-size: 12vw;
+        color: var(--primary);
+    }
+
+    #advertText {
+        font-size: 4vw;
+    }
+
+    .borderRight    {
+        border-right: none;
     }
 }
+
+
