@@ -56,6 +56,16 @@ body    {
     border-right-style: solid;
 }
 
+.inlineLink {
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+
+.inlineLink:hover  {
+    color: var(--primary);
+}
+
 @media  (max-width: 1199px) {
     #mainMotto  {
         font-size: 12vw;
