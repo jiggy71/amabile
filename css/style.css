@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400;1,600&display=swap');
 
 :root {
     --background: #fffbf0;
@@ -41,7 +41,7 @@ body    {
 }
 
 #advertText {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Playfair+Display', sans-serif;
     font-style: italic;
     font-size: 1.3vw;
     text-align: center;
@@ -60,6 +60,10 @@ body    {
     font-weight: bold;
     text-decoration: none;
     color: black;
+}
+
+.shadowMy {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .inlineLink:hover  {
