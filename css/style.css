@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400;1,600&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400;1,600&display=swap');*/
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,300;1,200;1,300&display=swap');
 
 :root {
     --background: #fffbf0;
     --navcolor: #e4ddf4;
     --primary: #943d24;
-    --darkgrey: #2d2d2d;
+    --darkgrey: #393939;
     --darkgreen: #282612;
 }
 
@@ -19,6 +20,11 @@ body    {
 
 .customNav  {
     background-color: var(--navcolor);
+}
+
+.nav-link   {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.1vw;
 }
 
 .navbar-nav .nav-item:hover .nav-link {
@@ -41,11 +47,11 @@ body    {
 }
 
 #advertText {
-    font-family: 'Playfair+Display', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-style: italic;
-    font-size: 1.3vw;
-    text-align: center;
-    color: var(--darkgrey);
+    font-size: 1.1vw;
+    text-align: justify;
+    color: black;
     background-color: var(--navcolor);
     padding: 10px 30px;
 }
@@ -57,17 +63,22 @@ body    {
 }
 
 .inlineLink {
-    font-weight: bold;
+    font-weight: 300;
     text-decoration: none;
-    color: black;
-}
-
-.shadowMy {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color: var(--primary);
 }
 
 .inlineLink:hover  {
     color: var(--primary);
+}
+
+#buttonsLayer   {
+    background-color: var(--darkgrey);
+    padding: 15px;
+}
+
+.btn-dark   {
+    background-color: var(--primary) !important;
 }
 
 @media  (max-width: 1199px) {
@@ -82,6 +93,10 @@ body    {
 
     .borderRight    {
         border-right: none;
+    }
+
+    .nav-link   {
+        font-size: 4vw;
     }
 }
 
