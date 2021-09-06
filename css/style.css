@@ -10,6 +10,13 @@
     --lightgrey: #9b9b9b;
     --darkgreen: #282612;
 }
+.navbar-light .navbar-toggler-icon  {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28152, 61, 36, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.navbar-light .navbar-toggler   {
+    /* Tutaj zmienia się kolor obwódki */
+}
 
 .active {
     color: var(--primary) !important;
@@ -87,18 +94,23 @@ body    {
 
 .btn-dark   {
     background-color: var(--primary) !important;
+    border: none;
 }
 
 @media  (max-width: 1199px) {
+    #mainImage  {
+        border-left: none;
+    }
+
     #mainMotto  {
         font-size: 12vw;
-        border-right-color: var(--primary);
-        border-right-width: 5px;
-        border-right-style: solid;
+        border-left: var(--primary) 5px solid;
+        margin-top: 10px;
     }
 
     #advertText {
         font-size: 4vw;
+        margin-bottom: 15px;
     }
 
     .borderRight    {
