@@ -2,13 +2,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,300;1,200;1,300&display=swap');
 
 :root {
-    --background: #fffbf0;
-    --navcolor: #e4ddf4;
+    --background: #ffffff;
+    --navcolor: #ffffff;
     --primary: #943d24;
     --primary-transparent: #943D2455;
     --darkgrey: #6d6d6d;
     --lightgrey: #9b9b9b;
     --darkgreen: #282612;
+    --black: #000000;
 }
 .navbar-light .navbar-toggler-icon  {
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28152, 61, 36, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
@@ -53,7 +54,7 @@ body    {
 #mainMotto   {
     font-family: 'Dosis', sans-serif;
     font-size: 6vw;
-    color: var(--primary);
+    color: var(--darkgrey);
     text-align: center;
     margin-bottom: 2vw;
     border-right: none;
