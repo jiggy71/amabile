@@ -56,7 +56,7 @@ body    {
 #mainMotto   {
     font-family: 'Dosis', sans-serif;
     font-size: 6vw;
-    color: var(--darkgrey);
+    color: var(--black);
     text-align: center;
     margin-bottom: 2vw;
     border-right: none;
@@ -89,7 +89,7 @@ body    {
 }
 
 #buttonsLayer   {
-    background-color: var(--lightgrey);
+    background-color: var(--background);
     padding: 15px;
     margin-bottom: 5px;
 }
@@ -111,7 +111,7 @@ body    {
 
     #mainMotto  {
         font-size: 12vw;
-        border-left: var(--darkgrey) 5px solid;
+        /*border-left: var(--darkgrey) 5px solid;*/
         margin-top: 10px;
     }
 
