@@ -100,14 +100,20 @@ body    {
     border: none;
 }
 
+/* ******************************************************** */
+/*                                                          */
+/*                  Mobile version here                     */
+/*                                                          */
+/* ******************************************************** */
+
 @media  (max-width: 1199px) {
     #mainImage  {
         border-left: none;
     }
 
     #mainMotto  {
-        font-size: 12vw;
-        /*border-left: var(--darkgrey) 5px solid;*/
+        font-size: 10vw;
+        letter-spacing: .03em;
         margin-top: 10px;
     }
 
