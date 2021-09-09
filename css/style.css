@@ -100,6 +100,14 @@ body    {
     border: none;
 }
 
+footer ::after, footer ::before {
+    box-sizing: content-box;
+}
+
+footer  {
+    background-color: var(--lightgrey);
+}
+
 /* ******************************************************** */
 /*                                                          */
 /*                  Mobile version here                     */
