@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,300;1,200;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400&display=swap');
 
 :root {
     --background: #ffffff;
@@ -34,6 +34,7 @@ body    {
 .nav-link   {
     font-family: 'Raleway', sans-serif;
     font-size: 1.1vw;
+    font-weight: 400;
 }
 
 .navbar-nav .nav-item:hover .nav-link {
@@ -62,6 +63,7 @@ body    {
     font-family: 'Raleway', sans-serif;
     font-style: italic;
     font-size: 1.1vw;
+    font-weight: 300;
     text-align: justify;
     color: black;
     background-color: var(--lightgrey);
@@ -105,10 +107,23 @@ body    {
 }
 
 .socialMediaElement {
-
+    font-size: 3vw;
+    text-align: center;
 }
-.
 
+.socialLink {
+    color: inherit;
+}
+
+.socialLink :hover  {
+    color: var(--primary);
+}
+
+#copyright  {
+    background-color: var(--darkgrey);
+    color: var(--lightgrey);
+    text-align: center;
+}
 /* ******************************************************** */
 /*                                                          */
 /*                  Mobile version here                     */
@@ -141,6 +156,10 @@ body    {
 
     .btn    {
         font-size: 3vw;
+    }
+
+    .socialMediaElement {
+        font-size: 6vw;
     }
 }
 
