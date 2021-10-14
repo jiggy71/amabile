@@ -102,6 +102,17 @@ body    {
     border: none;
 }
 
+.pageText {
+    font-family: 'Raleway', sans-serif;
+    font-style: italic;
+    font-size: 1.1vw;
+    font-weight: 300;
+    text-align: justify;
+    color: black;
+    /*background-color: var(--lightgrey);*/
+    padding: 10px 30px;
+}
+
 #socialMedia  {
     background-color: var(--lightgrey);
 }
