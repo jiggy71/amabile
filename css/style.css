@@ -76,6 +76,22 @@ body    {
     border-right-style: solid;
 }
 
+.borderLeft    {
+    border-left-color: var(--darkgrey);
+    border-left-width: 5px;
+    border-left-style: solid;
+}
+
+.boldText   {
+    font-family: 'Raleway', sans-serif;
+    font-style: italic;
+    font-size: 1.3vw;
+    font-weight: 400;
+    text-align: justify;
+    color: black;
+    background-color: var(--lightgrey);
+    padding: 10px 30px;
+}
 .inlineLink {
     font-weight: 300;
     text-decoration: none;
@@ -118,7 +134,7 @@ body    {
 }
 
 .socialMediaElement {
-    font-size: 3vw;
+    font-size: 2vw;
     text-align: center;
 }
 
@@ -158,16 +174,28 @@ body    {
         margin-bottom: 10px;
     }
 
+    .boldText   {
+        font-size: 5vw;
+    }
+
     .borderRight    {
         border-right: none;
+    }
+
+    .borderLeft {
+        border-left: none;
+    }
+
+    .btn    {
+        font-size: 3vw;
     }
 
     .nav-link   {
         font-size: 4vw;
     }
 
-    .btn    {
-        font-size: 3vw;
+    .pageText   {
+        font-size: 4vw;
     }
 
     .socialMediaElement {
