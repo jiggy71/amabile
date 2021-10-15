@@ -35,6 +35,10 @@ footer    {
     margin-bottom: 10px;
 }
 
+.button-link:hover  {
+    background-color: var(--primary) !important;
+}
+
 .customNav  {
     background-color: var(--navcolor);
 }
