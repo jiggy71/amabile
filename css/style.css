@@ -25,6 +25,14 @@
 
 body    {
     background-color: var(--background);
+    min-height: 100vh;
+    margin: 0;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+footer    {
+    margin-bottom: 10px;
 }
 
 .customNav  {
