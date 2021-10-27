@@ -1,21 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,300;1,200;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400&display=swap');
 
 :root {
-    --background: #fffbf0;
-    --navcolor: #e4ddf4;
+    --background: #ffffff;
+    --navcolor: #ffffff;
     --primary: #943d24;
     --primary-transparent: #943D2455;
     --darkgrey: #6d6d6d;
-    --lightgrey: #9b9b9b;
+    --lightgrey: #d3d3d3;
     --darkgreen: #282612;
+    --black: #000000;
 }
 .navbar-light .navbar-toggler-icon  {
-    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28152, 61, 36, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
-}
-
-.navbar-light .navbar-toggler   {
-    border-color: var(--primary-transparent);
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28109, 109, 109, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
 
 .navbar-toggler:focus {
@@ -28,6 +25,22 @@
 
 body    {
     background-color: var(--background);
+    min-height: 100vh;
+    margin: 0;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+footer    {
+    margin-bottom: 10px;
+}
+
+.button-link    {
+    margin-right: 30px;
+}
+
+.button-link:hover  {
+    background-color: var(--primary) !important;
 }
 
 .customNav  {
@@ -37,6 +50,7 @@ body    {
 .nav-link   {
     font-family: 'Raleway', sans-serif;
     font-size: 1.1vw;
+    font-weight: 400;
 }
 
 .navbar-nav .nav-item:hover .nav-link {
@@ -45,36 +59,55 @@ body    {
 }
 
 #mainImage  {
-    border-left-color: var(--primary);
+    /*
+    border-left-color: var(--darkgrey);
     border-left-width: 5px;
     border-left-style: solid;
+    */
 }
 
 #mainMotto   {
     font-family: 'Dosis', sans-serif;
     font-size: 6vw;
-    color: var(--primary);
+    color: var(--black);
     text-align: center;
     margin-bottom: 2vw;
     border-right: none;
 }
 
-#advertText {
+.advertText {
     font-family: 'Raleway', sans-serif;
     font-style: italic;
     font-size: 1.1vw;
+    font-weight: 300;
     text-align: justify;
     color: black;
-    background-color: var(--navcolor);
+    background-color: var(--lightgrey);
     padding: 10px 30px;
 }
 
 .borderRight    {
-    border-right-color: var(--primary);
+    border-right-color: var(--darkgrey);
     border-right-width: 5px;
     border-right-style: solid;
 }
 
+.borderLeft    {
+    border-left-color: var(--darkgrey);
+    border-left-width: 5px;
+    border-left-style: solid;
+}
+
+.boldText   {
+    font-family: 'Raleway', sans-serif;
+    font-style: italic;
+    font-size: 1.3vw;
+    font-weight: 400;
+    text-align: justify;
+    color: black;
+    background-color: var(--lightgrey);
+    padding: 10px 30px;
+}
 .inlineLink {
     font-weight: 300;
     text-decoration: none;
@@ -86,7 +119,7 @@ body    {
 }
 
 #buttonsLayer   {
-    background-color: var(--lightgrey);
+    background-color: var(--background);
     padding: 15px;
     margin-bottom: 5px;
 }
@@ -97,9 +130,49 @@ body    {
 }
 
 .btn-dark   {
-    background-color: var(--primary) !important;
+    background-color: var(--darkgrey) !important;
     border: none;
 }
+
+.pageText {
+    font-family: 'Raleway', sans-serif;
+    font-style: italic;
+    font-size: 1.1vw;
+    font-weight: 300;
+    text-align: justify;
+    color: black;
+    /*background-color: var(--lightgrey);*/
+    padding: 10px 30px;
+}
+
+#socialMedia  {
+    background-color: var(--lightgrey);
+}
+
+.socialMediaElement {
+    font-size: 2vw;
+    text-align: center;
+}
+
+.socialLink {
+    color: inherit;
+}
+
+.socialLink :hover  {
+    color: var(--primary);
+}
+
+#copyright  {
+    font-size: small;
+    background-color: var(--darkgrey);
+    color: var(--lightgrey);
+    text-align: center;
+}
+/* ******************************************************** */
+/*                                                          */
+/*                  Mobile version here                     */
+/*                                                          */
+/* ******************************************************** */
 
 @media  (max-width: 1199px) {
     #mainImage  {
@@ -107,26 +180,42 @@ body    {
     }
 
     #mainMotto  {
-        font-size: 12vw;
-        border-left: var(--primary) 5px solid;
+        font-size: 10vw;
+        letter-spacing: .03em;
         margin-top: 10px;
     }
 
-    #advertText {
+    .advertText {
         font-size: 4vw;
         margin-bottom: 10px;
+    }
+
+    .boldText   {
+        font-size: 5vw;
     }
 
     .borderRight    {
         border-right: none;
     }
 
-    .nav-link   {
-        font-size: 4vw;
+    .borderLeft {
+        border-left: none;
     }
 
     .btn    {
         font-size: 3vw;
+    }
+
+    .nav-link   {
+        font-size: 4vw;
+    }
+
+    .pageText   {
+        font-size: 4vw;
+    }
+
+    .socialMediaElement {
+        font-size: 6vw;
     }
 }
 
