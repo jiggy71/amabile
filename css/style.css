@@ -108,6 +108,7 @@ footer    {
     background-color: var(--lightgrey);
     padding: 10px 30px;
 }
+
 .inlineLink {
     font-weight: 300;
     text-decoration: none;
