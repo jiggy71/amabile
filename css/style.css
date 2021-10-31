@@ -178,6 +178,10 @@ footer    {
     float: right;
 }
 
+.scaledImage    {
+    width: 10vw;
+}
+
 /* ******************************************************** */
 /*                                                          */
 /*                  Mobile version here                     */
@@ -230,6 +234,10 @@ footer    {
 
     .displayOnDesktopOnly   {
         display: none;
+    }
+
+    .scaledImage    {
+        width: 30vw;
     }
 }
 
