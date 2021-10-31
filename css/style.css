@@ -169,6 +169,15 @@ footer    {
     color: var(--lightgrey);
     text-align: center;
 }
+
+.displayOnDesktopOnly   {
+    display: unset;
+}
+
+.topRightFloat  {
+    float: right;
+}
+
 /* ******************************************************** */
 /*                                                          */
 /*                  Mobile version here                     */
@@ -218,6 +227,11 @@ footer    {
     .socialMediaElement {
         font-size: 6vw;
     }
+
+    .displayOnDesktopOnly   {
+        display: none;
+    }
 }
+
 
 
