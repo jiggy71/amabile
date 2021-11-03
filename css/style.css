@@ -182,6 +182,18 @@ footer    {
     width: 10vw;
 }
 
+.floatButton	{
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    text-decoration: none;
+    background-color: var(--darkgrey);
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+    display: inline;
+}
+
 /* ******************************************************** */
 /*                                                          */
 /*                  Mobile version here                     */
