@@ -6,5 +6,6 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="f185ecb56b" level="application" />
     <orderEntry type="library" name="f185ecb56b" level="application" />
+    <orderEntry type="library" name="jquery" level="application" />
   </component>
 </module>
