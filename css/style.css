@@ -192,7 +192,7 @@ footer    {
     position: fixed;
     right: 50px;
     bottom: 50px;
-    display: block;
+    display: none;
     font-size: 40px;
     text-align: center;
 }
