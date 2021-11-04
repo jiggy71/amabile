@@ -202,6 +202,10 @@ footer    {
     top: -8px;
 }
 
+a.floatButton:visited   {
+    color: white;
+}
+
 /* ******************************************************** */
 /*                                                          */
 /*                  Mobile version here                     */
