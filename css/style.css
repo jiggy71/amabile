@@ -206,6 +206,10 @@ a.floatButton:visited   {
     color: white;
 }
 
+a.floatButton:active    {
+    color: var(--primary);
+}
+
 /* ******************************************************** */
 /*                                                          */
 /*                  Mobile version here                     */
