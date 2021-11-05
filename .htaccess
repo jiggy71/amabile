@@ -2,7 +2,7 @@ RewriteEngine on
 
 RewriteRule ^kontakt$ kontakt.html [NC]
 RewriteRule ^o-zespole$ about.html [NC]
-RewriteRule ^muzyka-na-slub$ slub.html [NC]
+RewriteRule ^oprawa-muzyczna-slubu$ slub.html [NC]
 RewriteRule ^oferta-koncertowa$ oferta.html [NC]
 RewriteRule ^duet-amabile$ index.html [NC]
 
