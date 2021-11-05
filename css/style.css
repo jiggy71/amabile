@@ -75,6 +75,15 @@ footer    {
     border-right: none;
 }
 
+h2  {
+    font-family: 'Raleway', sans-serif;
+    font-style: italic;
+    font-size: 1.1vw;
+    font-weight: bold;
+    color: black;
+    display: inline;
+}
+
 .advertText {
     font-family: 'Raleway', sans-serif;
     font-style: italic;
