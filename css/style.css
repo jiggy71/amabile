@@ -218,10 +218,6 @@ a.floatButton:active    {
     color: var(--primary);
 }
 
-li  {
-    list-style-type: disc;
-}
-
 li > h1     {
     font-size: 1.1vw;
     font-weight: 300;
