@@ -3,7 +3,7 @@ RewriteEngine on
 RewriteRule ^kontakt$ kontakt.html [NC]
 RewriteRule ^o-zespole$ about.html [NC]
 RewriteRule ^oprawa-muzyczna-slubu$ slub.html [NC]
-RewriteRule ^oferta-koncertowa$ oferta.html [NC]
-RewriteRule ^duet-amabile$ index.html [NC]
+RewriteRule ^oferta-koncertowa$ oferta.php [NC]
+RewriteRule ^duet-amabile$ index.php [NC]
 
 ErrorDocument 404 https://amabile.pl/error.html
