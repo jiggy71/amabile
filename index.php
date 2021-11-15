@@ -62,12 +62,12 @@ na każdą okazję. Najwyższy poziom wykonania, przystępne ceny. Zarezerwuj na
                     <li>
                         <h1>oprawa muzyczna ślubu</h1> i innych uroczystości kościelnych
                     </li>
-                <li>
-                    oprawa muzyczna uroczystości świeckich, imprez firmowych, eventów, spotkań
-                </li>
-                <li>
-                    koncerty okolicznościowe we wnętrzach kościelnych i świeckich
-                </li>
+                    <li>
+                        oprawa muzyczna uroczystości świeckich, imprez firmowych, eventów, spotkań
+                    </li>
+                    <li>
+                        koncerty okolicznościowe we wnętrzach kościelnych i świeckich
+                    </li>
                 </ul>
                 </p>
                 <p>
@@ -90,35 +90,18 @@ na każdą okazję. Najwyższy poziom wykonania, przystępne ceny. Zarezerwuj na
         </div>
     </div>
 </main>
-<footer class="container mt-3">
-    <div class="row rounded-top" id="socialMedia">
-        <div class="col socialMediaElement">
-            <a class="socialLink" href="https://www.facebook.com/duetamabile/">
-                <span class="fab fa-facebook-f"></span>
-            </a>
-        </div>
-        <div class="col socialMediaElement">
-            <a class="socialLink" href="https://www.instagram.com/duet_amabile/">
-                <span class="fab fa-instagram"></span>
-            </a>
-        </div>
-        <div class="col socialMediaElement">
-            <a class="socialLink" href="https://www.youtube.com/channel/UCmt_lVn3M2IRRCMXih2K6cA">
-                <span class="fab fa-youtube"></span>
-            </a>
-        </div>
-        <div class="col socialMediaElement">
-            <a class="socialLink" href="mailto:duet.amabile@gmail.com">
-                <span class="far fa-envelope"></span>
-            </a>
-        </div>
-    </div>
-    <div class="row rounded-bottom" id="copyright">
-        <div class="col mx-auto">
-            &copy;ASoft 2021
-        </div>
-    </div>
-</footer>
-
+<?php
+getTemplate('footer.html');
+?>
 </body>
 </html>
+
+<?php
+function getTemplate($templateName)
+{
+    $content = file_get_contents('templates/' . $templateName);
+    if ($content) {
+        echo($content);
+    }
+}
+
