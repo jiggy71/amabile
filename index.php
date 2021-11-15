@@ -2,48 +2,16 @@
 <!--suppress HtmlUnknownTarget -->
 <html lang="pl">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
-    <link href="favicon.ico" rel="shortcut icon">
-    <script src="js/bootstrap.bundle.min.js"></script>
-    <script src="https://kit.fontawesome.com/f185ecb56b.js" crossorigin="anonymous"></script>
-    <title>Duet Amabile - piękna muzyka na każdą okazję</title>
-    <meta name="description" content="Oprawa muzyczna ślubu i innych uroczystości kościelnych i świeckich. Piękna muzyka
-na każdą okazję. Najwyższy poziom wykonania, przystępne ceny. Zarezerwuj nas na swój ślub już dziś!">
+    <?php
+    require_once ('php/common-functions.php');
+    getTemplate('head.html');
+    getTemplate('index-title-description.html');
+    ?>
 </head>
 <body>
-<nav class="navbar navbar-expand-xl navbar-light customNav">
-    <div class="container">
-        <a class="navbar-brand" href="duet-amabile">
-            <img src="images/logo_czarne.gif" alt="Duet Amabile Logo">
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="menu">
-            <ul class="navbar-nav me-auto mb-2 mb-xl-0">
-                <li class="nav-item p-xl-4">
-                    <a class="nav-link active" href="duet-amabile">Strona główna</a>
-                </li>
-                <li class="nav-item p-xl-4">
-                    <a class="nav-link " href="oferta-koncertowa">Oferta koncertowa</a>
-                </li>
-                <li class="nav-item p-xl-4">
-                    <a class="nav-link " href="oprawa-muzyczna-slubu">Muzyka na ślubie</a>
-                </li>
-                <li class="nav-item p-xl-4">
-                    <a class="nav-link " href="o-zespole">O zespole</a>
-                </li>
-                <li class="nav-item p-xl-4">
-                    <a class="nav-link " href="kontakt">Kontakt</a>
-                </li>
-            </ul>
-        </div>
-    </div>
-</nav>
+<?php
+getNavigation('navigation.html', 'duet-amabile-trigger');
+?>
 <main class="container">
     <div class="row mt-3">
         <div class="col-xl-6">
@@ -96,12 +64,4 @@ getTemplate('footer.html');
 </body>
 </html>
 
-<?php
-function getTemplate($templateName)
-{
-    $content = file_get_contents('templates/' . $templateName);
-    if ($content) {
-        echo($content);
-    }
-}
 
