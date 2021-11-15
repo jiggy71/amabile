@@ -205,6 +205,10 @@ h1  {
     text-align: center;
 }
 
+.floatButton:hover  {
+    background-color: var(--primary);
+}
+
 .my-float   {
     position: relative;
     top: -8px;
