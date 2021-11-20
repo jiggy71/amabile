@@ -6,4 +6,4 @@ RewriteRule ^oprawa-muzyczna-slubu$ slub.html [NC]
 RewriteRule ^oferta-koncertowa$ oferta.php [NC]
 RewriteRule ^duet-amabile$ index.php [NC]
 
-ErrorDocument 404 https://amabile.pl/error.html
+ErrorDocument 404 https://amabile.pl/error.php
