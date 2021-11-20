@@ -1,13 +1,10 @@
 <!DOCTYPE html>
 <html lang="pl">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
-    <link href="favicon.ico" rel="shortcut icon">
-    <script src="js/bootstrap.bundle.min.js"></script>
-    <script src="https://kit.fontawesome.com/f185ecb56b.js" crossorigin="anonymous"></script>
+    <?php
+    require_once ('php/common-functions.php');
+    getTemplate('head.html');
+    ?>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="js/jquery.scrollTo.min.js"></script>
     <title>Duet Amabile</title>
@@ -15,36 +12,9 @@
 Pełen profesjonalizm wykonania, dogodne ceny. Piękna muzyka na każdą okazję - sprawdź nas!">
 </head>
 <body>
-<nav class="navbar navbar-expand-xl navbar-light customNav">
-    <div class="container">
-        <a class="navbar-brand" href="duet-amabile">
-            <img src="images/logo_czarne.gif" alt="Duet Amabile Logo">
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="menu">
-            <ul class="navbar-nav me-auto mb-2 mb-xl-0">
-                <li class="nav-item p-xl-4">
-                    <a class="nav-link" href="duet-amabile">Strona główna</a>
-                </li>
-                <li class="nav-item p-xl-4">
-                    <a class="nav-link " href="oferta-koncertowa">Oferta koncertowa</a>
-                </li>
-                <li class="nav-item p-xl-4">
-                    <a class="nav-link " href="oprawa-muzyczna-slubu">Muzyka na ślubie</a>
-                </li>
-                <li class="nav-item p-xl-4">
-                    <a class="nav-link active" href="o-zespole">O zespole</a>
-                </li>
-                <li class="nav-item p-xl-4">
-                    <a class="nav-link " href="kontakt">Kontakt</a>
-                </li>
-            </ul>
-        </div>
-    </div>
-</nav>
+<?php
+getNavigation('navigation.html', 'o-zespole-trigger');
+?>
 <main class="container">
     <a href="#" class="floatButton">
         <span class="fas fa-angle-up my-float"></span>
@@ -157,36 +127,9 @@ Pełen profesjonalizm wykonania, dogodne ceny. Piękna muzyka na każdą okazję
         </div>
     </div>
 </main>
-<footer class="container mt-3">
-    <div class="row rounded-top" id="socialMedia">
-        <div class="col socialMediaElement">
-            <a class="socialLink" href="https://www.facebook.com/duetamabile/">
-                <span class="fab fa-facebook-f"></span>
-            </a>
-        </div>
-        <div class="col socialMediaElement">
-            <a class="socialLink" href="https://www.instagram.com/duet_amabile/">
-                <span class="fab fa-instagram"></span>
-            </a>
-        </div>
-        <div class="col socialMediaElement">
-            <a class="socialLink" href="https://www.youtube.com/channel/UCmt_lVn3M2IRRCMXih2K6cA">
-                <span class="fab fa-youtube"></span>
-            </a>
-        </div>
-        <div class="col socialMediaElement">
-            <a class="socialLink" href="mailto:duet.amabile@gmail.com">
-                <span class="far fa-envelope"></span>
-            </a>
-        </div>
-    </div>
-    <div class="row rounded-bottom" id="copyright">
-        <div class="col mx-auto">
-            &copy;ASoft 2021
-        </div>
-    </div>
-</footer>
-
+<?php
+getTemplate('footer.html');
+?>
 </body>
 <script src="js/about.js"></script>
 </html>
