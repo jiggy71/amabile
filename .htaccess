@@ -2,7 +2,7 @@ RewriteEngine on
 
 RewriteRule ^kontakt$ kontakt.php [NC]
 RewriteRule ^o-zespole$ about.php [NC]
-RewriteRule ^oprawa-muzyczna-slubu$ slub.html [NC]
+RewriteRule ^oprawa-muzyczna-slubu$ slub.php [NC]
 RewriteRule ^oferta-koncertowa$ oferta.php [NC]
 RewriteRule ^duet-amabile$ index.php [NC]
 
