@@ -1,6 +1,6 @@
 RewriteEngine on
 
-RewriteRule ^kontakt$ kontakt.html [NC]
+RewriteRule ^kontakt$ kontakt.php [NC]
 RewriteRule ^o-zespole$ about.php [NC]
 RewriteRule ^oprawa-muzyczna-slubu$ slub.html [NC]
 RewriteRule ^oferta-koncertowa$ oferta.php [NC]
