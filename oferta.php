@@ -19,14 +19,22 @@ getNavigation('navigation.html', 'oferta-koncertowa-trigger');
     </a>
     <div class="row mt-3">
         <div class="col-xl-8">
-            <p class="pageText">
-            <h1>Oferta koncertowa</h1> <i>Duetu Amabile</i> obejmuje zarówno koncerty tematyczne zawierające muzykę
+            <h1 class="paddedHeader">Oferta koncertowa <i>Duetu Amabile</i></h1>
+            <p class="pageText">obejmuje zarówno koncerty tematyczne zawierające muzykę
             kościelną i przeznaczone do wykonywania w kościołach i innych miejscach kultu, jak i koncerty muzyki
             świeckiej. Dla koncertów muzyki religijnej nie mamy szczególnych wymagań co do wyposażenia kościoła - w
             zasadzie jedynym warunkiem jest obecność we wnętrzu sprawnych i nastrojonych organów piszczałkowych, bądź w
             ostateczności ich elektronicznej imitacji. Dla koncertów świeckich pożądana jest obecność profesjonalnego
-            nagłośnienia, ale w przypadku braku takowej jesteśmy w stanie zapewnić sobie nagłośnienie sami.
+            nagłośnienia, ale w przypadku braku takowego jesteśmy w stanie zapewnić sobie nagłośnienie sami.
             </p>
+        </div>
+        <div class="col-xl-4 displayOnDesktopOnly">
+            <img class="img-fluid rounded shadow" src="images/amabile-foto19cut.jpg" alt="Zdjęcie zespołu w Katedrze" />
+        </div>
+    </div>
+    <div class="row mt-3">
+        <div class="col">
+            <h2>Poniżej podajemy przykładowe propozycje naszych koncertów:</h2>
         </div>
     </div>
 </main>
