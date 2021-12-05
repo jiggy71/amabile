@@ -85,6 +85,19 @@ h1  {
     color: black;
 }
 
+h2  {
+    font-family: 'Raleway', sans-serif;
+    font-style: italic;
+    font-size: 1.2vw;
+    font-weight: bold;
+    color: black;
+    padding: 10px 30px;
+}
+
+.paddedHeader {
+    padding: 10px 30px;
+}
+
 .advertText {
     font-family: 'Raleway', sans-serif;
     font-style: italic;
@@ -292,7 +305,7 @@ li > h1     {
         font-family: 'Raleway', sans-serif;
         font-style: italic;
         font-size: 6vw;
-        font-weight: 300;
+        font-weight: 400;
         color: black;
     }
 
@@ -302,6 +315,13 @@ li > h1     {
         display: inline;
     }
 
+    h2  {
+        font-family: 'Raleway', sans-serif;
+        font-style: italic;
+        font-size: 4.5vw;
+        font-weight: 400;
+        color: black;
+    }
 }
 
 
