@@ -68,6 +68,28 @@ getNavigation('navigation.html', 'oferta-koncertowa-trigger');
         </div>
         <div class="col-xl-6">
             <h3>Koncerty świeckie</h3>
+            <p class="pageText">
+                - <strong>Polskie pieśni patriotyczne</strong> - oferujemy polskie pieśni patriotyczne opracowane na
+                głos, flet i fortepian oraz utwory polskich kompozytorów (S. Moniuszko, F. Nowowiejski, F. Chopin, K.
+                Szymanowski)
+            </p>
+            <p class="pageText">
+                - <strong>Koncert z muzyką filmową i musicalową</strong> - wykonujemy znane i lubiane przeboje z
+                musicali „Cats” A. L. Webbera, „West Side Story” L. Bernsteina, „The Wizard Of Oz”, „Skrzypek na dachu”
+                i innych w aranżacjach na głos, flet i fortepian.
+            </p>
+            <p class="pageText">
+                - oferujemy również <strong>oprawę muzyczną wigilii firmowych</strong> i innego rodzaju eventów,
+                spotkań, imprez firmowych.
+            </p>
+        </div>
+    </div>
+    <div class="row mt-3">
+        <div class="col">
+            <p class="pageText">
+                W sprawie szczegółowych informacji dotyczących koncertów, a w szczególności w kwestii warunków
+                finansowych i terminów prosimy o <a href="kontakt" class="inlineLink">kontakt z nami</a>.
+            </p>
         </div>
     </div>
 </main>
