@@ -43,7 +43,6 @@ getNavigation('navigation.html', 'oprawa-muzyczna-slubu-trigger');
                     <button class="btn btn-dark float-end button-link">Przejdź na nasz kanał YouTube</button>
                 </a>
             </p>
-
         </div>
         <div class="col-xl-6">
             <div class="rounded shadow embed-responsive ratio ratio-16x9 mt-3 mt-xl-0">

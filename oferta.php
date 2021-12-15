@@ -20,7 +20,7 @@ getNavigation('navigation.html', 'oferta-koncertowa-trigger');
     <div class="row mt-3">
         <div class="col-xl-8">
             <h1 class="paddedHeader">Oferta koncertowa <i>Duetu Amabile</i></h1>
-            <p class="pageText">obejmuje zarówno koncerty tematyczne zawierające muzykę
+            <p class="pageText borderLeft">obejmuje zarówno koncerty tematyczne zawierające muzykę
                 kościelną i przeznaczone do wykonywania w kościołach i innych miejscach kultu, jak i koncerty muzyki
                 świeckiej. Dla koncertów muzyki religijnej nie mamy szczególnych wymagań co do wyposażenia kościoła - w
                 zasadzie jedynym warunkiem jest obecność we wnętrzu sprawnych i nastrojonych organów piszczałkowych,
@@ -35,8 +35,8 @@ getNavigation('navigation.html', 'oferta-koncertowa-trigger');
         </div>
     </div>
     <div class="row mt-3">
-        <div class="col">
-            <h2>Poniżej podajemy przykładowe propozycje naszych koncertów:</h2>
+        <div class="col advertText rounded shadow">
+            <h2 class="my-auto">Poniżej podajemy przykładowe propozycje naszych koncertów:</h2>
         </div>
     </div>
     <div class="row mt-3">
