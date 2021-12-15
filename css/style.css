@@ -330,6 +330,11 @@ li > h1     {
         font-weight: 400;
         color: black;
     }
+
+    h3  {
+        font-size: 4.5vw;
+        font-weight: 300;
+    }
 }
 
 
