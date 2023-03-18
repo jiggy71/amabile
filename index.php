@@ -15,7 +15,7 @@ getNavigation('navigation.html', 'duet-amabile-trigger');
 <main class="container">
     <div class="row mt-3">
         <div class="col-xl-6">
-            <img class="img-fluid rounded shadow" id="mainImage" src="images/amabile-slide-1.jpg"
+            <img class="img-fluid rounded shadow" id="slide-box" src="images/amabile-slide-1.jpg"
                  alt="Duet Amabile">
         </div>
         <div class="col-xl-6 borderRight d-flex flex-column justify-content-around rounded">
@@ -62,6 +62,7 @@ getNavigation('navigation.html', 'duet-amabile-trigger');
 getTemplate('footer.html');
 ?>
 </body>
+<script src="js/index.js"></script>
 </html>
 
 
