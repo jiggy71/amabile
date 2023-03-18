@@ -15,10 +15,10 @@ getNavigation('navigation.html', 'duet-amabile-trigger');
 <main class="container">
     <div class="row mt-3">
         <div class="col-xl-6">
-            <img class="img-fluid rounded shadow" id="mainImage" src="images/amabile-foto-2-edit.jpg"
+            <img class="img-fluid rounded shadow" id="mainImage" src="images/amabile-slide-1.jpg"
                  alt="Duet Amabile">
         </div>
-        <div class="col-xl-6 borderRight d-flex flex-column justify-content-between rounded">
+        <div class="col-xl-6 borderRight d-flex flex-column justify-content-around rounded">
             <div id="mainMotto" class="rounded">
                 Piękna muzyka<br/>na każdą okazję
             </div>

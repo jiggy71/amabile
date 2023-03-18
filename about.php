@@ -83,12 +83,12 @@ getNavigation('navigation.html', 'o-zespole-trigger');
             </p>
         </div>
         <div class="col-xl-4 displayOnDesktopOnly">
-            <img class="img-fluid rounded shadow" src="images/amabile-foto11.jpg" alt="Zdjęcie zespołu"/>
+            <img class="img-fluid rounded shadow" src="images/amabile-foto19.jpg" alt="Zdjęcie zespołu"/>
         </div>
     </div>
     <div class="row mt-3">
         <div class="col-xl-4 displayOnDesktopOnly">
-            <img class="img-fluid rounded shadow" src="images/amabile-foto19.jpg" alt="Zdjęcie zespołu w Katedrze"/>
+            <img class="img-fluid rounded shadow" src="images/amabile-foto11.jpg" alt="Zdjęcie zespołu w Katedrze"/>
         </div>
         <div class="col-xl-8">
             <p class="pageText">
