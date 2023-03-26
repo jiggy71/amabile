@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig authType="PASSWORD" host="ftp.amabile.pl" id="14e289f6-cb2b-41df-a9c6-e442a423a401" port="22" nameFormat="DESCRIPTIVE" username="amabilep" useOpenSSHConfig="true" />
+    </configs>
+  </component>
+</project>
